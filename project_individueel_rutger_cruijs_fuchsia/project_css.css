@@ -1,0 +1,119 @@
+.logo{
+    justify-content: center;
+    display: flex;
+}
+
+.profielfoto{
+    display: flex;
+    float: right;
+    margin: 0.1em;
+}
+
+body{
+    background-color: #086000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.introtext{
+    text-align: left;
+    color: white;
+}
+
+.eerste_keer{
+    text-align: right;
+    color: white;
+}
+
+.onderzoek{
+    text-align: left;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.link_1{
+    color: #FFEFB5;
+    text-decoration: none;
+    background-color: #043600;
+    padding: 0.8em;
+    font-weight: bold;
+}
+
+.link_2{
+    color: #FFEFB5;
+    text-decoration: none;
+    background-color: #043600;
+    padding: 0.8em;
+    font-weight: bold;
+}
+
+.link_3{
+    color: #FFEFB5;
+    text-decoration: none;
+    background-color: #043600;
+    padding: 0.8em;
+    font-weight: bold;
+}
+
+.link_home{
+    text-decoration: none;
+}
+
+a:focus{
+    color: black;
+}
+
+.duurzaamheid{
+    text-align: left;
+    color: white;
+}
+
+.woonboten{
+    text-align: right;
+    color: white;
+}
+
+.werkruimtes{
+    text-align: left;
+    color: white;
+}
+
+.slim{
+    text-align: right;
+    color: white;
+}
+
+.cultureel{
+    text-align: left;
+    color: white;
+}
+
+.toegankelijk{
+    text-align: right;
+    color: white;
+}
+
+.eerder{
+    text-align: left;
+    color: white;
+}
+
+.idee{
+    text-align: right;
+    color: white;
+}
