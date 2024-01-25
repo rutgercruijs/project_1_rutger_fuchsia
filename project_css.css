@@ -8,14 +8,16 @@
 .profielfoto{
     display: flex;
     float: right;
-    margin: 0.1em;
+    margin-right: -20px;
+    margin-top: 30px;
 }
 
 body{
-    background-color: #086000;
+    background-color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 1em;
     margin-right: 1em;
+    background-image: url(/Users/rutgercruijs/Desktop/project_1_rutger_fuchsia/images/screenshot_voor_achtergrond.png);
 }
 
 h1{
@@ -26,7 +28,12 @@ h1{
 
 .introtext{
     text-align: left;
+    background-color: black;
     color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: groove;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
 }
 
 .eerste_keer{
@@ -49,27 +56,39 @@ ul{
 }
 
 .link_1{
-    color: #FFEFB5;
+    color: #DCC0A3;
     text-decoration: none;
-    background-color: #043600;
-    padding: 0.8em;
+    background-color: black;
+    padding: 27px;
     font-weight: bold;
+    opacity: 0.7;
 }
 
 .link_2{
-    color: #FFEFB5;
+    color: #DCC0A3;
     text-decoration: none;
-    background-color: #043600;
-    padding: 0.8em;
+    background-color: black;
+    padding: 27px;
     font-weight: bold;
+    opacity: 0.7;
 }
 
 .link_3{
-    color: #FFEFB5;
+    color: #DCC0A3;
     text-decoration: none;
-    background-color: #043600;
-    padding: 0.8em;
+    background-color: black;
+    padding: 27px;
     font-weight: bold;
+    opacity: 0.7;
+}
+
+.link_4{
+    color: #DCC0A3;
+    text-decoration: none;
+    background-color: black;
+    padding: 27px;
+    font-weight: bold;
+    opacity: 0.7;
 }
 
 .link_home{
@@ -118,4 +137,72 @@ a:focus{
 .idee{
     text-align: right;
     color: white;
+}
+
+.geweldig{
+    text-align: left;
+    color: white;
+}
+
+.hout{
+    text-align: right;
+    color: white;
+}
+
+.hoop{
+    text-align: left;
+    color: white;
+}
+
+nav{
+    position: fixed;
+    bottom: 5%;
+    left: 0%;
+    width: 100%;
+}
+
+.lege_ruimte{
+    margin: 100px;
+}
+
+.editie{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding-left: 140px;
+    margin: -15px;
+}
+
+.boot{
+    width: 375px;
+    max-width: 120%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.paden_prul{
+    width: 375px;
+    margin-left: -56px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.boef{
+    width: 375px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: -56px;
+}
+
+.lampjes{
+    width: 375px;
+    margin-left: -56px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.ingang{
+    width: 375px;
+    margin-left: -56px;
+    height: auto;
+    border-radius: 20px;
 }
